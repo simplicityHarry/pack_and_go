@@ -11,7 +11,7 @@ Pack&Go can only pack models that generate successfully. For example, if your mo
 **NOTE**
 
 Larger models take longer to pack.
-The larger your model is, the longer the packing process takes..
+The larger your model is, the longer the packing process takes.
 
 ---
 
