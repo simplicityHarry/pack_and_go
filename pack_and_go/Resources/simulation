@@ -1,0 +1,15 @@
+echo Starting EB GUIDE Pack and Go
+@pushd .
+@cd bin
+@start GtfStartup.exe ..\model\model.json
+@popd
+
+@pushd .
+@set monitordir="%cd%\monitor"
+
+@if exist %monitordir% (
+@cd monitor
+@start Monitor.exe -o ..\model\monitor.cfg -c localhost:60000 )
+@popd
+
+@exit
