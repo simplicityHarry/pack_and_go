@@ -11,18 +11,19 @@ Pack&Go can only pack models that generate successfully. For example, if your mo
 **NOTE**
 
 Larger models take longer to pack.
-The larger your model is, the longer the packing process takes.
+The larger your model is, the longer the packing process takes..
 
 ---
 
+This example shows how to create an EB GUIDE Studio plugin to create Pack&Go file of an EB GUIDE Studio model.
 
-## Using instructions
+## Instructions
 
 ### Prerequisite
-
 * Visual Studio 2017 version 15.9 or later is installed
 * EB GUIDE Studio is installed
 * The source code of this extension example is locally available
+* Access to EB GUIDE Studio SDK on [nuget](https://www.nuget.org/packages?q=Elektrobit) is possible
 
 ### Setup
 
@@ -36,4 +37,3 @@ The _PackAndGoPlugin_ library file is created.
 2. Start EB GUIDE Studio.
 3. Create a new EB GUIDE project or load an existing project.
 4. Select the Pack&Go menu item from the menu bar.
-
