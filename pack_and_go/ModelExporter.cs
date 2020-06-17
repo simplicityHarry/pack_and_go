@@ -21,11 +21,10 @@
 
         public void ExportSimulation(IProjectContext projectContext, string targetDirectory)
         {
-
             var targetDir = Path.Combine(targetDirectory, "model");
-
             var configurationProfile = projectContext.Project.SimulationModeConfigurationProfile;
-            _exporter.ExportModel(projectContext, targetDir, configurationProfile);
+            var exportConfiguration = new ExporterConfiguration(projectContext, targetDir, configurationProfile);
+            _exporter.ExportModel(exportConfiguration);
         }
 
 
