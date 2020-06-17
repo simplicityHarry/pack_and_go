@@ -37,3 +37,4 @@ The _PackAndGoPlugin_ library file is created.
 2. Start EB GUIDE Studio.
 3. Create a new EB GUIDE project or load an existing project.
 4. Select the Pack&Go menu item from the menu bar.
+5. Extract the created Pack&Go archive (*.zip) and start the simulation.bat to run the EB GUIDE model
