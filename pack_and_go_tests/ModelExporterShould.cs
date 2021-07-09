@@ -37,7 +37,7 @@
 
             A.CallTo(
                     () => exporter.ExportModel(
-                        A<ExporterConfiguration>.That.Matches(
+                        A<ModelExportDefinition>.That.Matches(
                             x => (x.TargetDir == $@"{tempPath}\model"
                                   && x.ConfigurationProfile == simulationConfigProfile))))
                 .MustHaveHappened(1, Times.Exactly);

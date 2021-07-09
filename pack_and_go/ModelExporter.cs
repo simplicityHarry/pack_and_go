@@ -23,7 +23,7 @@
         {
             var targetDir = Path.Combine(targetDirectory, "model");
             var configurationProfile = projectContext.Project.SimulationModeConfigurationProfile;
-            var exportConfiguration = new ExporterConfiguration(projectContext, targetDir, configurationProfile);
+            var exportConfiguration = new ModelExportDefinition(projectContext, targetDir, configurationProfile);
             _exporter.ExportModel(exportConfiguration);
         }
 
